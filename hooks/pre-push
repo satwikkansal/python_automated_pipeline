@@ -1,0 +1,1 @@
+pytest --cov=autodeploy --cov-report term-missing tests/ || exit 1
