@@ -1,0 +1,1 @@
+[![Build status](https://travis-ci.org/satwikkansal/python_automated_pipeline.svg?branch=master)]
