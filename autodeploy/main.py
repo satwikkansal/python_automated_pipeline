@@ -1,3 +1,5 @@
+from __future__ import division
+
 from flask import Flask, request
 
 app = Flask(__name__)
