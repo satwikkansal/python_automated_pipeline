@@ -1,0 +1,6 @@
+echo "Running pre-commit hook"
+touched_python_files=`git diff --cached --name-only |egrep '\.py$' || true`
+if [ -n "$touched_python_files" ]; then
+    autopep8 -riv $touched_python_files
+fi
+
