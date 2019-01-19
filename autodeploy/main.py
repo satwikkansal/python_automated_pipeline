@@ -18,7 +18,7 @@ def get_division():
 def compute_division(x, y):
     if y == 0:
         return float('inf')
-    return x / y
+    return x * y
 
 
 if __name__ == "__main__":
