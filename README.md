@@ -8,9 +8,6 @@
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Acknowldegements](#acknowledgements)
-- **Raw templates:** [Markdown](#markdown) and [reStructuredText](#restructuredtext)
-- [Some Useful Links](#some-useful-links)
 
 
 ## Usage
