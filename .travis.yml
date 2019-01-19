@@ -12,7 +12,6 @@ install:
   - pip install codecov
 
 script:
-  - coverage erase
   - pytest --cov=autodeploy --cov-report term-missing
 
 after_success:
