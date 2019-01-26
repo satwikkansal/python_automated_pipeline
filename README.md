@@ -1,7 +1,7 @@
 # python_automated_pipeline
 > Automating production pipeline for Python projects
 
-[![Travis Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}) [![GitHub forks](https://img.shields.io/github/forks/satwikkansal/python_automated_pipeline.svg?style=social&label=Fork)](https://github.com/satwikkansal/python_automated_pipeline) [![GitHub stars](https://img.shields.io/github/stars/satwikkansal/python_automated_pipeline.svg?style=social&label=Star)](https://github.com/python_automated_pipeline) [![GitHub tag](https://img.shields.io/github/tag/satwikkansal/python_automated_pipeline.svg)](https://github.com/satwikkansal/python_automated_pipeline)
+[![Travis Build Status](https://travis-ci.org/satwikkansal/autodeploy.png?branch=master)](https://travis-ci.org/satwikkansal/autodeploy) [![GitHub forks](https://img.shields.io/github/forks/satwikkansal/python_automated_pipeline.svg?style=social&label=Fork)](https://github.com/satwikkansal/python_automated_pipeline) [![GitHub stars](https://img.shields.io/github/stars/satwikkansal/python_automated_pipeline.svg?style=social&label=Star)](https://github.com/python_automated_pipeline) [![GitHub tag](https://img.shields.io/github/tag/satwikkansal/python_automated_pipeline.svg)](https://github.com/satwikkansal/python_automated_pipeline)
 
 ## Table of Contents
 
