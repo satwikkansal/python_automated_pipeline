@@ -1,0 +1,18 @@
+#!/bin/bash
+PROJECT_DIR="/home/project"
+GIT_DIR="/home/git"
+BRANCH="master"
+
+while read oldrev newrev ref
+do
+	# only checking out the master
+	if [[ $ref = refs/heads/$BRANCH ]];
+	then
+		echo "Ref $ref received. Deploying ${BRANCH} branch to production..."
+		git --work-tree=$PROJECT_DIR --git-dir=$GIT_DIR checkout -f
+		cd $PROJECT_DIR && make setup prod-run
+		
+	else
+		echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
+	fi
+done
