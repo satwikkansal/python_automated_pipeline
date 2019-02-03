@@ -1,1 +1,5 @@
+#!/bin/bash
+MIN_COVERAGE=100
+
 pytest --cov=autodeploy --cov-report term-missing tests/ || exit 1
+coverage report --fail-under=$MIN_COVERAGE || exit 1
