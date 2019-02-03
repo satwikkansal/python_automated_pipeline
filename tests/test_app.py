@@ -10,10 +10,10 @@ def test_root():
     assert(response.data.decode() == "Hello World!")
 
 
-# def test_get_division():
-#     response = test_client.get('/division?x=5&y=2')
-#     assert(response.status_code == 200)
-#     assert(response.data.decode() == "2.5")
+def test_get_division():
+    response = test_client.get('/division?x=5&y=2')
+    assert(response.status_code == 200)
+    assert(response.data.decode() == "2.5")
 
 
 def test_compute_product_non_zero():
