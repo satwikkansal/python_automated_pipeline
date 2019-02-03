@@ -1,5 +1,9 @@
 language: python
 
+os:
+    - linux
+    - windows
+
 # 2.7, 3.5, and 3.6 covers 99% of all python users
 python:
     - 2.7
