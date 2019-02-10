@@ -15,7 +15,6 @@ install:
 
 script:
   - pytest --cov=autodeploy --cov-report term-missing
-  - coverage report --fail-under=100
 
 after_success:
   - codecov
