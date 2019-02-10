@@ -14,6 +14,7 @@ def get_division():
     return str(compute_division(x,y))
 
 def compute_division(x, y):
+	#return infinity in case of divide by zero
     if y == 0:
         return float('inf')
     return x/y
