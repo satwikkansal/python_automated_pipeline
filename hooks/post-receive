@@ -13,6 +13,6 @@ do
 		cd $PROJECT_DIR && make setup prod-run
 		
 	else
-		echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch may be deployed on this server."
+		echo "Ref $ref received. Doing nothing: only the ${BRANCH} branch can deployed on this server."
 	fi
 done
