@@ -1,19 +1,26 @@
 language: python
 
-os:
-    - linux
-
 python:
     - 2.7
     - 3.5
     - 3.6
 
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial  # required for Python >= 3.7
+    - python: nightly
+      dist: xenial  # required for Python >= 3.7
+  allow_failures:
+    - python: nightly
+
 install:
   - pip install -r requirements.txt
   - pip install -r test-requirements.txt
-  - pip install codecov
+  - pip install codecov flake8
 
 script:
+  - flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
   - pytest --cov=autodeploy --cov-report term-missing
 
 after_success:
