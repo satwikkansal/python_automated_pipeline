@@ -5,7 +5,7 @@
 [![Travis Build Status](https://travis-ci.org/satwikkansal/python_automated_pipeline.png?branch=master)](https://travis-ci.org/satwikkansal/python_automated_pipeline) [![GitHub forks](https://img.shields.io/github/forks/satwikkansal/python_automated_pipeline.svg?style=social&label=Fork)](https://github.com/satwikkansal/python_automated_pipeline) [![GitHub stars](https://img.shields.io/github/stars/satwikkansal/python_automated_pipeline.svg?style=social&label=Star)](https://github.com/python_automated_pipeline) [![GitHub tag](https://img.shields.io/github/tag/satwikkansal/python_automated_pipeline.svg)](https://github.com/satwikkansal/python_automated_pipeline)
 
 ## Table of Contents
-- [About][#about)
+- [About](#about)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
