@@ -1,4 +1,4 @@
-from autodeploy.app import compute_division, app
+from autodeploy.app import app, compute_division
 
 test_client = app.test_client()
 test_client.testing = True
